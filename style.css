@@ -1,0 +1,120 @@
+*{
+    font-family: 'PT Sans Narrow', sans-serif;
+    letter-spacing:1px;
+
+}
+#section{
+    border: 12px solid black;
+    width: 600px;
+    height: 600px; 
+    margin:auto;
+    border-image: linear-gradient(to right, #21BFE2,#9C55F3 ,#DB1DFA ) 30;
+}
+
+#facebook_btn {
+    background-color: #4665a1;
+    color: #fff;
+    width: 200px;
+     height: 35px; 
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px #4267B2;
+    border-color: #0f244e;
+    text-align: center;
+    padding:15px;
+    font-size: 25px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin-right: 20px;
+
+}
+/* .btn {
+ padding:center;
+ border: 1px solid
+ margin-top:10px;
+ text-align:center;
+} */
+#google_btn {
+    background-color: #ffffff;
+    color: rgb(27, 9, 9);
+    width: 200px;
+    height: 35px; 
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px #c2c3c5;
+    border-color: #10192c;
+    text-align: center;
+    padding:15px;
+    font-size: 25px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    display:flex;
+    justify-content: center;
+    color: #555555;
+}
+#google_logo {
+    margin-right: 10px;
+}
+#container {
+    display:flex;
+    justify-content: center;
+    width: 420px;
+    /* border: 1px solid black; */
+    margin:auto;
+    margin-bottom: 50px;
+}
+#account{
+    /* text-align: center; */
+    margin:auto;
+    width: 420px;
+    /* border: 2px solid black; */
+    color: #555555;
+    
+
+}
+
+.account_input{
+    background-color: #F7F7F7;
+    border: 2px solid #E6E6E6;
+    border-radius: 10px;
+    width: 410px;
+    height: 55px; 
+    margin-top: 5px;
+}
+
+h1{
+    text-align: center;
+    margin-top:50px;
+    margin-bottom: 50px;
+    color: #555555;
+    
+}
+
+span{
+    color: #999999;
+    text-decoration: underline;
+    font-size:15px;
+}
+
+.account_submit{
+    background-color: #333333;
+    border: 2px solid #333333;
+    border-radius: 10px;
+    width: 420px;
+    height: 50px; 
+    margin-top: 15px;
+    color:white;
+    font-size:20px;
+}
+
+p{
+    color: #999999;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+#google_text {
+    color: #555555;
+    text-decoration: none;
+}
